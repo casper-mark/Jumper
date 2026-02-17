@@ -556,7 +556,7 @@ def main():
 
     pygame.display.set_caption('Level ' + str(level))
 
-    filename = r'Levels_new/level_' + str(level) + '.csv'
+    filename = r'Levels/level_' + str(level) + '.csv'
     print(filename)
     
     if mode == 2:
